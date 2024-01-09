@@ -1,0 +1,8 @@
+behind the seance of spring rest
+
+              api/student/{id}
+Rest Client  ------------------->           spring rest(jackson)  -----------> Resst Service
+             <------------------
+             {"first Name" :"suraj",        (jackson will convert               (will return student)
+              "last Name" :"bhoji"            student to json)
+              }
